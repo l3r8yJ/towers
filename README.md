@@ -16,6 +16,12 @@ App {
               .next(WebValidated::class)
           }
         }
+        withTower {
+          tower {
+            first(XmlUesrs::class)
+              .next(WebValidated::class)
+          }
+        }
       }
       Post {
         withTower {
